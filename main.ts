@@ -82,6 +82,7 @@ namespace Joybit {
 
     //% weight=85
     //% blockId=Vibration block="Motor Vibration for %time second(s)"
+    //% ms.min=0 ms.max=255 ms.defl=2
     export function Vibration(ms: number): void {
         pins.digitalWritePin(DigitalPin.P16, 0)
         basic.pause(ms / 1000)
