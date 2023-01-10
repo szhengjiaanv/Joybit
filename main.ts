@@ -79,4 +79,12 @@ namespace Joybit {
         }
         return ret
     }
+
+    //% weight=85
+    //% blockId=Vibration block="Motor Vibration for %time second(s)"
+    export function Vibration(ms: number): void {
+        pins.digitalWritePin(DigitalPin.P16, 0)
+        basic.pause(ms / 1000)
+        pins.digitalWritePin(DigitalPin.P16, 1)
+    }
 }
