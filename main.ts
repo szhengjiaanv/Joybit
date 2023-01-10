@@ -81,11 +81,11 @@ namespace Joybit {
     }
 
     //% weight=85
-    //% blockId=Vibration block="Motor Vibration %t second(s)"
+    //% blockId=Vibration block="MotorVibration %t second(s)"
     //% t.min=0 t.max=255 t.defl=2
     export function Vibration(t: number): void {
-        pins.digitalWritePin(DigitalPin.P16, 0)
-        basic.pause(t * 1000)
         pins.digitalWritePin(DigitalPin.P16, 1)
+        basic.pause(t * 1000)
+        pins.digitalWritePin(DigitalPin.P16, 0)
     }
 }
