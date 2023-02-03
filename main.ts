@@ -13,9 +13,13 @@ namespace Joybit {
  */
 
     export enum RockerXY {
+        //% block="Left Rocker X"
         LeftRockerX = 0x1,
+        //% block="Left Rocker Y"
         LeftRockerY = 0x2,
+        //% block="Right Rocker X"
         RightRockerX = 0x3,
+        //% block="Right Rocker Y"
         RightRockerY = 0x4
     }
 
@@ -60,7 +64,7 @@ namespace Joybit {
     }
 
     //% weight=87
-    //% blockId=onButtonEvent block="on button %button|is %event"
+    //% blockId=onButtonEvent block="On button %button|is %event"
     export function onButtonEvent(button: Buttons, event: ButtonAction, handler: Action): void {
         pins.onPulsed(<number>button, <number>event, handler);
     }
