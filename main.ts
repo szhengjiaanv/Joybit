@@ -4,7 +4,7 @@
  * 
  * Support email:  support@haljia.com
  */
-//% color="#6197da" weight=10 icon="\uf11b"
+//% color="#6197da" weight=11 icon="\uf11b"
 namespace Joybit {
     const ADDR = 0x11
     const CMD_ROCKER = 0x20
