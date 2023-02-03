@@ -28,9 +28,9 @@ namespace Joybit {
         P12 = DAL.MICROBIT_ID_IO_P12,
         //%block="D"
         P13 = DAL.MICROBIT_ID_IO_P13,
-        //%block="Left Rocker Button"
+        //%blockId=LeftRockerButton block="Left Rocker Button"
         P14 = DAL.MICROBIT_ID_IO_P14,
-        //%block="Right Rocker Button"
+        //%blockId=RightRockerButton block="Right Rocker Button"
         P15 = DAL.MICROBIT_ID_IO_P15
     }
 
