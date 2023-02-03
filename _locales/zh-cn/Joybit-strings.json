@@ -6,8 +6,8 @@
     "Joybit.Up|block": "松开",
     "Joybit.getButton|block": "按键 %button 被按下",
     "Joybit.Vibration|block": "电机震动 %t ms",
-    "Joybit.LeftRockerX|block": "左摇杆X值",
-    "Joybit.LeftRockerY|block": "左摇杆Y值",
-    "Joybit.RightRockerX|block": "右摇杆X值",
-    "Joybit.RightRockerY|block": "右摇杆Y值"
+    "Joybit.RockerXY.LeftRockerX|block": "左摇杆X值",
+    "Joybit.RockerXY.LeftRockerY|block": "左摇杆Y值",
+    "Joybit.RockerXY.RightRockerX|block": "右摇杆X值",
+    "Joybit.RockerXY.RightRockerY|block": "右摇杆Y值"
 }
