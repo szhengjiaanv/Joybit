@@ -10,8 +10,8 @@
     "Joybit.RockerXY.LeftRockerY|block": "左摇杆 Y轴值",
     "Joybit.RockerXY.RightRockerX|block": "右摇杆 X轴值",
     "Joybit.RockerXY.RightRockerY|block": "右摇杆 Y轴值",
-    "Joybit.Buttons.P12|block": "C按键",
-    "Joybit.Buttons.P13|block": "D按键",
+    "Joybit.Buttons.P12|block": "C",
+    "Joybit.Buttons.P13|block": "D",
     "Joybit.Buttons.P14|block": "左摇杆按键",
     "Joybit.Buttons.P15|block": "右摇杆按键"
 }
