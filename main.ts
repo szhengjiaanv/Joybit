@@ -51,7 +51,7 @@ namespace Joybit {
     }
 
     //% weight=68
-    //% blockId=FunbitMotorStart block="Rocker |%index"
+    //% blockId=JoybitRockerXY block="Rocker |%index"
     //% index.fieldEditor="gridpicker" index.fieldOptions.columns=2
     export function JoybitRockerXY(index: RockerXY) :number {
         let v = 0
