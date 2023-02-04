@@ -41,7 +41,7 @@ namespace Joybit {
         Up = PulseValue.Low
     }
 
-    //% weight=90
+    //% weight=69
     //% blockId=JoybitInitial block="Joystick Initialization"
     export function JoybitInitial(): void {
         pins.setPull(DigitalPin.P12, PinPullMode.PullUp)
@@ -50,7 +50,7 @@ namespace Joybit {
         pins.setPull(DigitalPin.P15, PinPullMode.PullUp)
     }
 
-    //% weight=89
+    //% weight=68
     //% blockId=FunbitMotorStart block="Rocker |%index"
     //% index.fieldEditor="gridpicker" index.fieldOptions.columns=2
     export function JoybitRockerXY(index: RockerXY) :number {
@@ -63,13 +63,13 @@ namespace Joybit {
         return v;
     }
 
-    //% weight=87
+    //% weight=67
     //% blockId=onButtonEvent block="On button %button|is %event"
     export function onButtonEvent(button: Buttons, event: ButtonAction, handler: Action): void {
         pins.onPulsed(<number>button, <number>event, handler);
     }
 
-    //% weight=86
+    //% weight=66
     //% blockId=getButton block="button %button is pressed"
     export function getButton(button: Buttons): boolean {
         let ret = false
@@ -84,7 +84,7 @@ namespace Joybit {
         return ret
     }
 
-    //% weight=85
+    //% weight=65
     //% blockId=Vibration block="Motor Vibration %t ms"
     //% t.shadow="timePicker"
     export function Vibration(t: number): void {
