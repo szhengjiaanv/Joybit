@@ -88,8 +88,8 @@ namespace Joybit {
     //% blockId=Vibration block="Motor Vibration %t ms"
     //% t.shadow="timePicker"
     export function Vibration(t: number): void {
-        pins.digitalWritePin(DigitalPin.P16, 1)
+        pins.digitalWritePin(DigitalPin.P1, 1)
         basic.pause(t)
-        pins.digitalWritePin(DigitalPin.P16, 0)
+        pins.digitalWritePin(DigitalPin.P1, 0)
     }
 }

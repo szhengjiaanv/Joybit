@@ -1,6 +1,6 @@
 {
     "name": "Joybit",
-    "description": "HALJIA Joybit V1.0",
+    "description": "HALJIA Joybit V1.1",
     "dependencies": {
         "core": "*",
         "radio": "*",
