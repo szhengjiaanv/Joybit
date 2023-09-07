@@ -13,13 +13,13 @@ namespace Joybit {
  */
 
     export enum RockerXY {
-        //% block="Left Rocker X"
+        //% block="Left Joystick X"
         LeftRockerX = 0x1,
-        //% block="Left Rocker Y"
+        //% block="Left Joystick Y"
         LeftRockerY = 0x2,
-        //% block="Right Rocker X"
+        //% block="Right Joystick X"
         RightRockerX = 0x3,
-        //% block="Right Rocker Y"
+        //% block="Right Joystick Y"
         RightRockerY = 0x4
     }
 
@@ -51,7 +51,7 @@ namespace Joybit {
     }
 
     //% weight=68
-    //% blockId=JoybitRockerXY block="Rocker |%index"
+    //% blockId=JoybitRockerXY block="Joystick |%index"
     //% index.fieldEditor="gridpicker" index.fieldOptions.columns=2
     export function JoybitRockerXY(index: RockerXY) :number {
         let v = 0
